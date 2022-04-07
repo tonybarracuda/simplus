@@ -1,0 +1,46 @@
+html {
+  background: white;
+}
+
+body {
+  text-align: center;
+}
+
+.main {
+  margin: 0 auto;
+  display: block;
+  border: 5px dotted #f66d52;
+	padding: 5px;
+}
+
+.time {
+  display: inline-flex;
+}
+
+.time1 {
+  margin-right: 2px;
+}
+  
+ .time2 {
+  margin-left: 5px;
+}
+
+button {
+   margin: 0 auto;
+  display: grid;
+  font-weight: 400;
+  border: solid 2px black;
+  outline: 0;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  letter-spacing: .08rem;
+  background-color: white;
+  border-radius: .35rem;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  background: pink;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en" class="classes">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ac.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>赛车比赛石油计算机</title>
+</head>
+<body>
+    <h1 align="center">赛车比赛石油计算机</h1>
+    <div class="main">
+      <h4>Эти данные возьмите из игры после 3 кругов практики. АС посчитает на сколько кругов вам хватит n литров топлива.</h4>
+      <p>
+        <img width="300px" src="https://i.ibb.co/KzmC1bD/fueltest.png" alt="testimage" border="0">
+      </p>
+      <p>Введите сколько заправлено сейчас
+        <input type="number" id="litersFilled" size="10">
+      <p>На сколько этого хватит по версии АС
+        <input type="number" id="estLaps" size="10"><br>
+           <h2 id="rez"></h2>
+      <p>***</p>
+      <h4>Далее вводим условия продолжительности заезда</h4>
+      <p>Введите сколько по времени длится гонка (в минутах):
+      <input type="number" id="raceDistanceMin" size="10">
+      </p>
+      <p>Введите среднее время вашего круга:</p>
+      <div class="time">
+        <div class="time1">
+          Минуты <input type="number" id="Min" size="10"><p></p>
+        </div>
+        <div class="time2">
+         Секунды <input type="number" id="Sec" size="10">
+        </div>
+        </div>
+        <p>
+        <button id="goL">⚡ПОСЧИТАТЬ⚡</button><br>
+     
+      <h2 class="submit" id="rez2"></h2><!--//ответ -->
+    </div>
+  <script src="ac.js"></script>
+</body> 
+</html>
